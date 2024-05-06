@@ -1,5 +1,6 @@
-package com.search.es.domain;
+package com.search.es.user.domain;
 
+import com.search.es.user.domain.BasicProfile;
 import jakarta.persistence.*;
 import lombok.Getter;
 import org.springframework.data.annotation.PersistenceConstructor;

@@ -1,7 +1,7 @@
-package com.search.es.presentation;
+package com.search.es.user.presentation;
 
-import com.search.es.application.MemberRequestDto;
-import com.search.es.application.MemberService;
+import com.search.es.user.application.MemberRequestDto;
+import com.search.es.user.application.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

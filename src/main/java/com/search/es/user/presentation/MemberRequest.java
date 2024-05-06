@@ -1,18 +1,19 @@
-package com.search.es.application;
+package com.search.es.user.presentation;
 
 import lombok.Getter;
 
 @Getter
-public class MemberRequestDto {
+public class MemberRequest {
 
     private String name;
     private String description;
 
-    private MemberRequestDto() {
+    private MemberRequest() {
     }
 
-    public MemberRequestDto(String name, String description) {
+    public MemberRequest(String name, String description) {
         this.name = name;
         this.description = description;
     }
+
 }

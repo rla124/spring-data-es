@@ -1,4 +1,4 @@
-package com.search.es.domain;
+package com.search.es.user.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
